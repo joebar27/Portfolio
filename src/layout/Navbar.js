@@ -8,10 +8,10 @@ function Navbar() {
             <NavLink to="/" className="bgColor-4 color-2 px-2 mx-4 mx-lg-5">
                 Portfolio
             </NavLink>
-            <NavLink to="Portfolio/a-propos" className="bgColor-4 color-2 px-2 mx-4 mx-lg-5">
+            <NavLink to="/a-propos" className="bgColor-4 color-2 px-2 mx-4 mx-lg-5">
                 À-propos
             </NavLink>
-            <NavLink to="Portfolio/contact" className="bgColor-4 color-2 px-2 mx-4 mx-lg-5">
+            <NavLink to="/contact" className="bgColor-4 color-2 px-2 mx-4 mx-lg-5">
                 Contact
             </NavLink>
         </nav>
