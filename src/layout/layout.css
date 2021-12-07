@@ -1,0 +1,189 @@
+/* #########################################################################
+   ######                           HEADER                            ######
+   ######################################################################### */
+
+#header {
+    height: 20vh;
+}
+
+#header h1 {
+    font-size: 2em;
+}
+
+#lineleft,
+#lineright {
+    height: 1px;
+}
+
+#header h2 {
+    font-size: 1.2em;
+}
+
+/* --------------------- Animation titre --------------------- */
+#headerAnimed > #title {
+    transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    transition-delay: 0;
+    transition-duration: 0.5s;
+    transform: scale(0.6);
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+#headerAnimed.animate > #title {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+    transition-delay: 0.5s;
+}
+
+/* --------------------- Animation ligne general -------------------- */
+#headerAnimed > #lineleft,
+#headerAnimed > #lineright {
+    transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-property: transform;
+}
+
+#headerAnimed.animate > #lineleft,
+#headerAnimed.animate > #lineright {
+    transform: translate3d(0, 0, 0);
+}
+
+/* ----------------- Animation ligne droite/gauche ----------------- */
+#headerAnimed > #lineright {
+    transform: translate3d(500%, 0, 0);
+}
+
+#headerAnimed > #lineleft {
+    transform: translate3d(-500%, 0, 0);
+}
+
+/* --------------------- Animation sous-titre --------------------- */
+
+#headerAnimed > #subtitle {
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    backface-visibility: hidden;
+    transition-property: transform;
+    transform: perspective(2500px) rotateY(-100deg);
+}
+
+#headerAnimed.animate > #subtitle {
+    transform: perspective(2500px) rotateY(0);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~                       Media query header                         ~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 768px) {
+    #header h1 {
+        font-size: 3.2em;
+    }
+    
+    #lineleft,
+    #lineright {
+        height: 1px;
+    }
+    
+    #header h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #header h1 {
+        font-size: 4em;
+    }
+    
+    #lineleft,
+    #lineright {
+        height: 1px;
+    }
+    
+    #header h2 {
+        font-size: 2.8rem;
+    }
+    
+}
+/* #########################################################################
+   ######                         NAVBAR                              ######
+   ######################################################################### */
+
+nav {
+    height: 7vh;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: #272b30;
+}
+
+a.active {
+    color: #cec950;
+    text-decoration: overline underline;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~                       Media query navbar                         ~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 768px) {
+    a {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    a {
+        font-size: 2rem;
+    }
+}
+/* #########################################################################
+   ######                         FOOTER                              ######
+   ######################################################################### */
+
+footer {
+    height: 4vh;
+}
+
+#footer {
+    font-size: 1rem;
+}
+
+#footer>a {
+    font-size: 1.2rem;
+    height: 4vh;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~                       Media query footer                         ~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 768px) {
+    #footer {
+        font-size: 1.6rem;
+    }
+    #footer>a {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #footer {
+        font-size: 1.5rem;
+    }
+    #footer>a {
+        font-size: 1.5rem;
+    }
+}

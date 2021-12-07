@@ -1,0 +1,59 @@
+/* #########################################################################
+   ######                     CLASS ABOUT                              ######
+   ######################################################################### */
+#about {
+    min-height: 96vh;
+}
+
+#portrait>p>img {
+    width: 40%; 
+}
+
+#monCv {
+    
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~                       Media query Home                         ~~~~
+   ~~~~                                                                  ~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+   @media screen and (min-width: 768px) {
+    #portrait>p {
+        font-size: 1.5em;
+        padding: 2em;
+    }
+
+    #portrait>p>img {
+        width: 30%; 
+    }
+
+    #aboutLang h1 {
+        font-size: 2.5rem;
+
+    }
+
+    #aboutLang img {
+        height: 8vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #portrait>p {
+        font-size: 1.8em;
+        padding: 2em;
+    }
+
+    #portrait>p>img {
+        width: 30%; 
+    }
+
+    #aboutLang h1 {
+        font-size: 3rem;
+
+    }
+
+    #aboutLang img {
+        height: 10vh;
+    }
+}
