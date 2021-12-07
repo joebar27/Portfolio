@@ -12,9 +12,9 @@ function App() {
         <div>
             <main className="bgColor-4">
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/a-propos" element={<Aboutme />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="portfolio/" element={<Home />} />
+                    <Route path="portfolio/a-propos" element={<Aboutme />} />
+                    <Route path="portfolio/contact" element={<Contact />} />
                 </Routes>
             </main>
             <Footer />
