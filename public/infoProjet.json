@@ -1,0 +1,112 @@
+[
+    {
+        "name": "portfolio",
+        "src": "images/portfolio.jpg",
+        "alt": "capture du projet portfolio",
+        "describe": "Ce projet est le tout premier portfolio qui présente tous mes projets réalisés lors des 10 premières semaines de formation à l'AFPA, et voué a évolué constamment lors de mes futurs savoir-faire.",
+        "trainingTime": "11 semaines",
+        "langage": [
+            "REACT",
+            "AJAX",
+            "JS",
+            "Bootstrap",
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/Portfolio",
+        "ghPages": ""
+    },
+    {
+        "name": "swapi",
+        "src": "images/swapi.jpg",
+        "alt": "capture du projet swapi",
+        "describe": "Ce projet est le premier que j'ai réalisé avec REACT, il avait pour but de récupéré des informations sur une API pour en affiché les résultats avec un système de recherche par Id.",
+        "trainingTime": "10 semaines",
+        "langage": [
+            "REACT",
+            "AJAX",
+            "JS",
+            "Bootstrap",
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/star_wars_REACT",
+        "ghPages": ""
+    },
+    {
+        "name": "memory",
+        "src": "images/Memory.jpg",
+        "alt": "capture du projet du memory",
+        "describe": "Ce projet a été conçu dans le cadre de mon évaluation des compétences acquise 8 semaines de formation.",
+        "trainingTime": "8 semaines",
+        "langage": [
+            "AJAX",
+            "JS",
+            "Bootstrap",
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/Memory_evaluation",
+        "ghPages": "https://joebar27.github.io/Memory_evaluation"
+    },
+    {
+        "name": "normabanque",
+        "src": "images/NormaBanque.jpg",
+        "alt": "capture du projet NormaBanque",
+        "describe": "Ce projet devait utiliser des requêtes AJAX auprès d'une API et de manipulé les données au format JSON, ce qui ma permis de réalisé un bar graphe responsive selon les données récupérées.",
+        "trainingTime": "7 semaines",
+        "langage": [
+            "AJAX",
+            "JS",
+            "Bootstrap",
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/Banque-Online",
+        "ghPages": "https://joebar27.github.io/Banque-Online"
+    },
+    {
+        "name": "norimmo",
+        "src": "images/norimmo.jpg",
+        "alt": "capture du projet NorImmo",
+        "describe": "Ce projet avait pour but de nous faire découvrir en formation a distance les joies du travail d'équipe avec l'utilisation de GitHub, un chef de projet et 2 collaborateurs avait été désigné.",
+        "trainingTime": "6 semaines",
+        "langage": [
+            "AJAX",
+            "JS",
+            "Bootstrap",
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/NorImmo",
+        "ghPages": "https://joebar27.github.io/NorImmo"
+    },
+    {
+        "name": "pendu",
+        "src": "images/Pendu.jpg",
+        "alt": "capture du projet du pendu",
+        "describe": "Ce projet est le premier que j'ai réalisé en DOM, il avait pour but de réalisé un pendu graphiquement en récupérant des données d'un tableau de mot et de manipulé ces données.",
+        "trainingTime": "5 semaines",
+        "langage": [
+            "JS",
+            "Bootstrap",
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/Pendu_DOM",
+        "ghPages": "https://joebar27.github.io/Pendu_DOM"
+    },
+    {
+        "name": "terredegeek",
+        "src": "images/terredegeek2.jpg",
+        "alt": "capture du projet terre de geek",
+        "describe": "Ce projet est le tout premier site réalisé lors de ma formation à l'AFPA, il avait pour but d'utilisé les bases en HTML et CSS, afin de réaliser un site responsive First Mobil.",
+        "trainingTime": "4 semaines",
+        "langage": [
+            "CSS",
+            "HTML"
+        ],
+        "github": "https://github.com/joebar27/TerreDeGeek",
+        "ghPages": "https://joebar27.github.io/TerreDeGeek"
+    }
+]
