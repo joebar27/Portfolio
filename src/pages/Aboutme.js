@@ -45,7 +45,7 @@ function Aboutme() {
                     </p>
                 </div>
                 <div id="monCv" >
-                    <a className="color-5 border border-danger p-2" href="./CV_Anger_Romain_2022.pdf" target="_blank">
+                    <a className="color-5 border border-danger p-2" href="./ANGER-Romain-CV-V3.pdf" target="_blank">
                         Mon CV en PDF
                     </a>
                 </div>
